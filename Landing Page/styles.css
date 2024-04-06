@@ -1,0 +1,144 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-image:url(beans.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.top-header {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 10px;
+  background-color: burlywood;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+}
+
+header {
+  background-color: rgba(255, 255, 255, 0.5); /* Adding opacity to the header background */
+  padding: 20px;
+  text-align: center;
+}
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Cafe Name */
+.cafe-name {
+  font-family: 'Roboto', sans-serif; 
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+#hero img {
+  width: 100%;
+  height: auto;
+}
+#specialties {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+}
+
+/* Testimonials Section */
+#testimonials {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+  text-align: center;
+}
+
+.testimonial {
+  display: none;
+  background-color: burlywood;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+}
+
+/* About Us Section */
+#about {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+  background-color: beige;
+  margin-bottom: 50px;
+}
+
+/* Menu Section */
+#menu {
+  background-color: burlywood;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  max-width: 500px;
+}
+
+.menu-item {
+  margin-bottom: 20px;
+}
+
+.menu-item h3 {
+  margin-bottom: 10px;
+}
+
+/* Events Section */
+#events {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Contact Section */
+#contact {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+footer nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
